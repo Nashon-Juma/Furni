@@ -30,7 +30,7 @@
 		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
 			<div class="container">
-				<a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+				<a class="navbar-brand" href="index">Furni<span>.</span></a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -39,22 +39,22 @@
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
 						<li class="nav-item ">
-							<a class="nav-link" href="index.html">Home</a>
+							<a class="nav-link" href="index">Home</a>
 						</li>
-						<li><a class="nav-link" href="shop.html">Shop</a></li>
-						<li class="active"><a class="nav-link" href="about.html">About us</a></li>
-						<li><a class="nav-link" href="services.html">Services</a></li>
-						<li><a class="nav-link" href="blog.html">Blog</a></li>
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+						<li><a class="nav-link" href="shop">Shop</a></li>
+						<li class="active"><a class="nav-link" href="about">About us</a></li>
+						<li><a class="nav-link" href="services">Services</a></li>
+						<li><a class="nav-link" href="blog">Blog</a></li>
+						<li><a class="nav-link" href="contact">Contact us</a></li>
 					</ul>
 
 					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
-						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+						<li><a class="nav-link" href="cart"><img src="images/cart.svg"></a></li>
 					</ul>
 				</div>
 			</div>
-				
+
 		</nav>
 		<!-- End Header/Navigation -->
 
@@ -79,7 +79,7 @@
 			</div>
 		<!-- End Hero Section -->
 
-		
+
 
 		<!-- Start Why Choose Us Section -->
 		<div class="why-choose-section">
@@ -164,7 +164,7 @@
             <p>Separated they live in.
             Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
-					</div> 
+					</div>
 					<!-- End Column 1 -->
 
 					<!-- Start Column 2 -->
@@ -177,7 +177,7 @@
             Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
 
-					</div> 
+					</div>
 					<!-- End Column 2 -->
 
 					<!-- Start Column 3 -->
@@ -188,7 +188,7 @@
             <p>Separated they live in.
             Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
-					</div> 
+					</div>
 					<!-- End Column 3 -->
 
 					<!-- Start Column 4 -->
@@ -201,18 +201,18 @@
             Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
 
-          
-					</div> 
+
+					</div>
 					<!-- End Column 4 -->
 
-					
+
 
 				</div>
 			</div>
 		</div>
 		<!-- End Team Section -->
 
-		
+
 
 		<!-- Start Testimonial Slider -->
 		<div class="testimonial-section before-footer-section">
@@ -233,7 +233,7 @@
 							</div>
 
 							<div class="testimonial-slider">
-								
+
 								<div class="item">
 									<div class="row justify-content-center">
 										<div class="col-lg-8 mx-auto">
@@ -254,7 +254,7 @@
 
 										</div>
 									</div>
-								</div> 
+								</div>
 								<!-- END item -->
 
 								<div class="item">
@@ -277,7 +277,7 @@
 
 										</div>
 									</div>
-								</div> 
+								</div>
 								<!-- END item -->
 
 								<div class="item">
@@ -300,7 +300,7 @@
 
 										</div>
 									</div>
-								</div> 
+								</div>
 								<!-- END item -->
 
 							</div>
@@ -312,7 +312,7 @@
 		</div>
 		<!-- End Testimonial Slider -->
 
-		
+
 
 		<!-- Start Footer Section -->
 		<footer class="footer-section">
@@ -417,7 +417,7 @@
 
 			</div>
 		</footer>
-		<!-- End Footer Section -->	
+		<!-- End Footer Section -->
 
 
 		<script src="js/bootstrap.bundle.min.js"></script>
