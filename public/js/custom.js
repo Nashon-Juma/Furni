@@ -23,7 +23,7 @@
 	};
 	tinyslider();
 
-	
+
 
 
 	var sitePlusMinus = function() {
@@ -63,11 +63,43 @@
 
 	        quantityAmount.value = value;
 	    }
-	    
+
 	    init();
-		
+
 	};
 	sitePlusMinus();
 
 
 })()
+document.addEventListener('DOMContentLoaded', function() {
+    var navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(function(navLink) {
+        navLink.addEventListener('mouseover', function() {
+            // Apply invert filter to the SVG and the text
+            navLink.querySelectorAll('img, .login').forEach(function(element) {
+                element.style.filter = 'invert(1)';
+            });
+        });
+
+        navLink.addEventListener('mouseout', function() {
+            // Reset the filter
+            navLink.querySelectorAll('img, .login').forEach(function(element) {
+                element.style.filter = 'none';
+            });
+        });
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    var dropdown = document.querySelector('.dropdown');
+    var dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+    dropdown.addEventListener('mouseenter', function() {
+        dropdownMenu.style.display = 'block';
+    });
+
+    dropdown.addEventListener('mouseleave', function() {
+        dropdownMenu.style.display = 'none';
+    });
+});
+

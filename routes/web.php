@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -37,6 +38,11 @@ Route::get('/about', function () {
 Route::get('/item', function () {
     return view('item');
 });
+
+Route::get('/logout', function () {
+    Auth::logout();
+    return redirect('/');
+})->middleware('auth');
 
 Route::middleware([
     'auth:sanctum',
