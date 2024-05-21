@@ -1,11 +1,13 @@
 <?php
 
+use App\Livewire\ProductShow;
+use App\Livewire\StoreFront;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', StoreFront::class);
+
+Route::get('/product/{productId}', ProductShow::class)->name('product');
 
 Route::get('/index', function () {
     return view('index');
@@ -33,10 +35,6 @@ Route::get('/thankyou', function () {
 });
 Route::get('/about', function () {
     return view('about');
-});
-
-Route::get('/item', function () {
-    return view('item');
 });
 
 Route::get('/logout', function () {
